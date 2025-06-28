@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f6fff6;
+    }
+
+    header {
+      background-color: #26dc06;
+      height:160px;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav {
+      background-color: #26dc06;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      color: rgb(4, 143, 34);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    nav a:hover {
+      background: white;
+      color: #26dc06;
+    }
+
+    .container {
+      max-width: 100%;
+      margin: 30px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      padding: 32px 28px;
+    }
+
+    img {
+      display: block;
+      margin: 18px auto;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    h2, h3 {
+      color: #1a7c1a;
+      margin-top: 24px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #26dc06;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+      font-size: 15px;
+    }
+
+    .achievements-gallery {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+
+    .achievement-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+    }
+
+    .achievement-item img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #1a7c1a;
+      text-align: center;
+    }

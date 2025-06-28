@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #e4e4e4;
+    color: #ffffff;
+    margin:100px;
+    padding: 50px;
+    height: 100%;
+}
+.home{
+    background-color: #bde0fe;
+    height: 50px;
+    margin: 20px ;
+    padding: 5px;
+    
+}
+.about{
+    background-color: #bde0fe;
+    height: 50px;
+    margin: 20px ;
+    padding: 5px;
+    
+}
+.contact{
+    background-color: #bde0fe;
+    height: 50px;
+    margin: 20px ;
+    padding: 5px;
+    
+}
+.help{
+    background-color: #bde0fe;
+    height: 50px;
+    margin: 20px ;
+    padding: 5px;
+    
+}

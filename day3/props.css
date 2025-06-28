@@ -1,0 +1,63 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.first {
+    background-color: #fcf6bd;
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.second {
+    background-color: #a9def9;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+
+}
+.Inner1 {
+    background-color: #ff99c8;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.Inner2 {
+    background-color: #e4c1f9;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}

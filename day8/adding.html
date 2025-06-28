@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Click to Add Paragraph</h2>
+    <button onclick="addnewelement()">Add Element</button>
+    <button onclick="removeAll()">Remove All</button>
+
+    <div id="container"></div>
+
+    <script>
+       function addnewelement() {
+        let para = document.createElement("p");
+        para.innerText = "This is a new paragraph";
+        document.getElementById("container").appendChild(para);
+
+        let para1 = document.createElement("h1");
+        para1.innerText = "This is a new heading";
+        document.getElementById("container").appendChild(para1);
+       }
+
+       function removeAll() {
+        document.getElementById("container").innerHTML = "";
+       }
+    </script>
+</body>
+</html>

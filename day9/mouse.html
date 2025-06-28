@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse</title>
+</head>
+<body>
+
+    <!-- Mouse Over/Out Event Example -->
+    <h2>Mouse Over/Out Event</h2>
+    <div id="mousebox" style="width: 100px; height: 100px; background-color: lightblue;">
+        Hover over me!
+    </div>
+
+    <script>
+        // Mouse over/out event
+        let mousebox = document.getElementById('mousebox');
+        mousebox.addEventListener('mouseover', function() {
+            mousebox.style.backgroundColor = "lightcoral";
+            mousebox.innerHTML = "Mouse Over!";
+        });
+        mousebox.addEventListener('mouseout', function() {
+            mousebox.style.backgroundColor = "lightblue";
+            mousebox.innerHTML = "Mouse Out!";
+        });
+    </script>
+</body>
+</html>
